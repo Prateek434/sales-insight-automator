@@ -8,9 +8,9 @@ Sales Insight Automator is a full-stack web application that transforms raw sale
 
 | Service      | URL                              |
 | ------------ | -------------------------------- |
-| Frontend     | `https://your-app.vercel.app`    |
-| Backend API  | `https://your-api.onrender.com`  |
-| Swagger Docs | `https://your-api.onrender.com/api/docs` |
+| Frontend     | `https://sales-insight-automator-mhht4iggr-grazzstar-8132s-projects.vercel.app`    |
+| Backend API  | `https://sales-insight-backend-omnq.onrender.com`  |
+| Swagger Docs | `https://sales-insight-backend-omnq.onrender.com/api/docs/` |
 
 ## Running Locally with Docker
 
