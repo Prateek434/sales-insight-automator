@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: sales-insight-backend
+    runtime: node
+    region: oregon
+    plan: free
+    buildCommand: cd backend && npm ci
+    startCommand: cd backend && node server.js
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: GROQ_API_KEY
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: RESEND_FROM_EMAIL
+        sync: false
+      - key: FRONTEND_ORIGIN
+        sync: false
